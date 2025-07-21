@@ -467,13 +467,7 @@ export default function PostDetailPage() {
                 {/* Only author can edit or delete their own comment */}
                 {c.author === currentUsername && commentEditId !== c._id && (
                   <div className="flex gap-2 mt-2">
-                    <Button
-                      size="sm"
-                      variant="secondary"
-                      onClick={() => handleStartEdit(c._id, c.content)}
-                    >
-                      Edit
-                    </Button>
+                   
                     <AlertDialog
                       open={commentDeleteOpen && commentDeleteId === c._id}
                       onOpenChange={(open) => {
