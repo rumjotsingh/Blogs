@@ -7,11 +7,11 @@ export default function AboutPage() {
       <Separator className="mb-6" />
       <section className="mb-8">
         <p className="text-zinc-700 dark:text-zinc-300 mb-4">
-          Welcome to <span className="font-semibold">BlogName</span>!<br /><br />
+          Welcome to <span className="font-semibold">Code & Innovation</span>!<br /><br />
           Our mission is to inspire, inform, and connect people through thoughtful stories, expert insights, and practical guides. We believe in the power of words to spark creativity and foster learning in a fast-changing world.
         </p>
         <p className="text-zinc-700 dark:text-zinc-300 mb-4">
-          Founded in 2025, BlogName started as a small project among passionate writers and technologists. Since then, we've grown into a trusted resource for thousands of readers worldwide. Whether you're here for deep dives on technology, creative writing, or lifestyle tips, we aim to deliver high-quality, well-researched content you can rely on.
+          Founded in 2025, Code & Innovation started as a small project among passionate writers and technologists. Since then, we've grown into a trusted resource for thousands of readers worldwide. Whether you're here for deep dives on technology, creative writing, or lifestyle tips, we aim to deliver high-quality, well-researched content you can rely on.
         </p>
       </section>
       <section className="mb-8">
@@ -33,12 +33,12 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
         <p className="text-zinc-700 dark:text-zinc-300">
           Have a question, suggestion, or partnership idea? 
-          <a href="/contact" className="underline ml-1 text-blue-600 dark:text-blue-400">Contact us here.</a>
+          <a href="/Contact" className="underline ml-1 text-blue-600 dark:text-blue-400">Contact us here.</a>
         </p>
       </section>
       <Separator className="mt-8 mb-6" />
       <div className="text-zinc-600 dark:text-zinc-400 text-sm">
-        &copy; {new Date().getFullYear()} BlogName. Built by creators, for readers.
+        &copy; {new Date().getFullYear()} Code & Innovation. Built by creators, for readers.
       </div>
     </main>
   );

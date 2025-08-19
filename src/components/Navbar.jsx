@@ -15,9 +15,9 @@ export function Navbar() {
 
            <a
               href="/"
-              className="px-4 py-2 text-gray-700 hover:text-black dark:text-gray-200"
+              className="px-4 py-2 text-gray-900"
             >
-              RsBlogs
+             Code & Innovation
             </a>
         </div>
         {/* Navigation Links */}
@@ -77,7 +77,7 @@ export function Navbar() {
           )}
            <li>
             <a
-              href="/contact"
+              href="/Contact"
               className="px-4 py-2 text-gray-700 hover:text-black dark:text-gray-200"
             >
               Contact
