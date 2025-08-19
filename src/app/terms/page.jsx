@@ -7,7 +7,7 @@ export default function TermsPage() {
       <Separator className="mb-6" />
 
       <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-        By accessing and using the BlogName website, you agree to the following terms and conditions.
+        By accessing and using the Code & Innovation website, you agree to the following terms and conditions.
       </p>
 
       <section className="mb-8">

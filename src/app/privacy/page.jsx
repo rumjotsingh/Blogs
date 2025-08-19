@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
       <Separator className="mb-6" />
       <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-        Your privacy is important to us. This Privacy Policy describes how BlogName collects, uses, and protects your personal information.
+        Your privacy is important to us. This Privacy Policy describes how Code & Innovation collects, uses, and protects your personal information.
       </p>
 
       <section className="mb-8">
@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Your Rights</h2>
         <p>
-          You can access, correct, or delete your personal information. Contact us at <a href="/contact" className="underline text-blue-600 dark:text-blue-400">our contact page</a>.
+          You can access, correct, or delete your personal information. Contact us at <a href="/Contact" className="underline text-blue-600 dark:text-blue-400">our contact page</a>.
         </p>
       </section>
       <section className="mb-8">

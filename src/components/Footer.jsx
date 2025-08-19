@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-8 px-4 flex flex-col md:flex-row gap-8 md:gap-0 justify-between">
 
         <div>
-          <div className="font-bold text-xl mb-2">RsBlogs</div>
+          <div className="font-bold text-xl mb-2">Code & Innovation</div>
           <p className="text-zinc-400 max-w-xs">
             Inspiring stories & resources for creative minds.
           </p>
@@ -30,19 +30,12 @@ export function Footer() {
               <li><a href="/terms" className="hover:text-white transition">Terms of Service</a></li>
             </ul>
           </div>
-          <div>
-            <div className="font-semibold mb-1">Connect</div>
-            <div className="flex gap-2 mt-1">
-              <a href="https://twitter.com/" aria-label="Twitter" className="hover:text-white transition">Twitter</a>
-              <a href="https://github.com/" aria-label="GitHub" className="hover:text-white transition">GitHub</a>
-              <a href="/newsletter" aria-label="Newsletter" className="hover:text-white transition">Newsletter</a>
-            </div>
-          </div>
+         
         </div>
       </div>
       <Separator className="bg-zinc-800 my-4" />
       <div className="text-sm text-zinc-500 text-center pb-4">
-        &copy; {new Date().getFullYear()} RsBlogs. All rights reserved.
+        &copy; {new Date().getFullYear()} Code & Innovation. All rights reserved.
       </div>
     </footer>
   );
